@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lottie{
+    max-width: 50%;
+    height: auto;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.signup-form{
+    position: absolute;
+    margin-left: 55%;
+}
+
+.image-container{
+    max-width: 10%;
+}
+
+.logo{
+    width: 50vw;
+    height: 50vh;
+    clip-path: polygon(0 0, 40% 0, 40% 52%, 40% 99%, 0 100%, 0% 50%);
+}

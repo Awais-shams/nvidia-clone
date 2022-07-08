@@ -1,13 +1,12 @@
+
+/* SIGN IN PAGE STYLING */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Sawarabi Gothic', sans-serif;
-    /* color: black; */
-    /* background-color: grey; */
 }
-
-/* SIGN IN PAGE STYLING */
 
 .signin-header{
     text-align: center;
@@ -23,10 +22,6 @@
     text-align: center;
 }
 
-/* .signup-logo{
-    max-width: 20%;
-    height: auto;
-} */
 
 .form-desc{
     color: black;
@@ -455,7 +450,14 @@ button:hover{
 
 }
    
-@media only screen  and (max-width:2560px){
+/* @media (min-width:1200px){
+    .form-container{
+        max-width: 1000px !important;
+        margin: 0 auto !important;
+    }
+} */
+
+@media only screen  and (max-width:2560px) {
     .signin-title{
         font-size: 2em;
         margin-top: 5px;

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: inline-grid;
+    border: 10px solid black;
+    /* grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px; */
+}
+
+.items{
+    color: greenyellow;
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid red;
+    text-align: center;
+}
+ 
